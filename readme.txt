@@ -61,11 +61,6 @@ Upgrade notices describe that not feasible with current version of Wordpress or 
 
 = 1.0.1 =
 * First Release of SWE.
-= 2.0.1 =
-* Update Font size issues.
-* Another change.
-= 3.0.1 =
-* Upgade design & update slider options values changes.
-* Another change.
+
 
 
