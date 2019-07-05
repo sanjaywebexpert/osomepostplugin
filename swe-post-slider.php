@@ -4,7 +4,7 @@
 * Plugin Url: http://sanjaywebexpert.com
 * Description: This is Responisve Post Slider by Category or without category used by Shortcodes , any where in posts , pages , widgets and php file. 
 * Author Name: Sanjay Sharma
-* Version: 1.0.1
+* Version: 3.0.1
 * Author Url: http://sanjaywebexpert.com
 */
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
