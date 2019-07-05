@@ -1,0 +1,68 @@
+/**
+ * Osome Slider CSS
+ */
+.carausel_caption {
+    text-align: center;
+    background: #00b9eba8;
+	padding: 1rem 3rem;
+    transition: height 0.5s ease-in-out;
+}
+.post_excerpt_carausel {
+    color: #fff;
+    margin-bottom: 10px;
+	font-family:inherit;
+	  font-size: calc(0.75em + 1vmin);
+}
+.carausel_caption h3 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+	font-family:inherit;
+	 font-size: calc(0.75em + 2vmin);
+    font-weight: bold;
+}
+.osome_slider .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: 30%;
+	left: 0;
+    right: 0;
+}
+.osome_slider .owl-nav [class*=owl-] {
+    color: #FFF !important;
+    font-size: 24px !important;
+    width: 50px;
+    border-radius: 100% !important;
+    height: 50px;
+    line-height: 39px;
+    text-align: center;
+}
+.osome_slider .owl-prev {
+    float: left;
+	background: url(../img/left-nav.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.osome_slider .owl-next {
+    float: right;
+	background: url(../img/right-nav.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.osome_slider .owl-nav [class*=owl-]:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.owl-carousel .owl-item img {
+    margin-bottom: 0px;
+}
+.owl-dots{
+	margin-top: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span,  .owl-theme .owl-dots .owl-dot:hover span{
+	background: #00b9eba8 !important;
+}
+.owl-carousel .owl-item a {
+    text-decoration: none !important;
+}

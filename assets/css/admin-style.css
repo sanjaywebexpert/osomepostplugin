@@ -1,0 +1,64 @@
+/**
+ * Admin Slider CSS
+ */
+ 
+.wrap.swe_osome_wrap {
+    padding: 30px;
+    border: 1px solid rgba(30,140,190,.8);
+    margin: 30px;
+}
+.osome_admin_heading{
+    background: rgba(30,140,190,.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px !important;
+    font-size: 28px !important;
+    letter-spacing: 1.5px;
+	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.shortcode{
+	display: inline-block;
+    color: #fff;
+    padding: 10px;
+    background: #48a0c8;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.wrap.swe_osome_wrap select {
+    padding: 5px 10px;
+    height: 40px;
+    vertical-align: middle;
+}
+span.or {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-align: center;
+}
+table#osome_setting_form_table {
+    margin: 0 auto;
+}
+table#osome_setting_form_table td {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+table#osome_setting_form_table input[type=number] {
+    height: 40px;
+    width: 66px;
+    line-height: 1;
+    padding: 5px 10px;
+}
+input.osome_submit {
+    background: #48a0c8;
+    border: 0px;
+    color: #fff;
+    padding: 8px 25px;
+    font-size: 18px;
+    border-radius: 7px;
+    margin: 10px 0;
+}
