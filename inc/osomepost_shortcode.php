@@ -65,7 +65,28 @@ function swe_osm_osome_shortcode($atts, $content = null){
 	
 	$swe_slider_loop = new WP_Query($arg);
 	$result='';
-	
+	$result .='<script>
+				jQuery(document).ready(function() {
+				  jQuery("#owl_osome_slider_show-'.$randslid.'").owlCarousel({
+					loop:'.$swe_loop.',
+					margin:'.$swe_margin.',
+					nav:'.$swe_nav.',
+					autoplay:'.$swe_autoplay.',
+					navText : ["",""],
+					responsive:{
+						0:{
+							items:'.$swe_mobile_item_no.'
+						},
+						600:{
+							items:'.$swe_tablet_item_no.'
+						},
+						1000:{
+							items:'.$swe_desktop_item_no.'
+						}
+					}
+				})
+			});
+		</script>';
 		$result .='
 		<style>
 			#owl-demo .item img{
